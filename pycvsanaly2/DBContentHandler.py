@@ -686,7 +686,7 @@ if __name__ == '__main__':
     # We need to split the query to save memory
     icursor = ICursor (cnn.cursor (), 100)
     icursor.execute (statement ("SELECT object from _temp_log order by id desc",
-                                self.db.place_holder))
+                                db.place_holder))
     rs = icursor.fetchmany ()
     while rs:
         for t in rs:

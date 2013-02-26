@@ -621,8 +621,6 @@ def create_database (driver, database, username = None, password = None, hostnam
             
             return create_database (driver, database, username, password, hostname)
         raise e
-    
-    return db
 
 if __name__ == '__main__':
     db = create_database ('sqlite', '/tmp/foo.db')
