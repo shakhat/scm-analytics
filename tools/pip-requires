@@ -1,0 +1,5 @@
+MySQL-python
+pysqlite
+git+git://github.com/MetricsGrimoire/RepositoryHandler.git#egg=repositoryhandler-0.5
+git+git://github.com/SoftwareIntrospectionLab/guilty.git#egg=guilty-2.1
+launchpadlib
